@@ -17,4 +17,4 @@ Post by: ajithrn
 
 the reason for the error is there is a limit in the system for how many files can be watched by a user, using the following command in a terminal window we can simply increase the limit ..
 
-echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sud
+echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
